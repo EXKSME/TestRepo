@@ -5,10 +5,10 @@
  */
 const MySQL =require('mysql')
 const conn = MySQL.createConnection({
-    host:'43.138.211.67',
+    host:'1',
     port:'3306',
     user:'TencentDB',
-    password:'2rADwjT2ctE5eKwb',
+    password:'2b',
     database:'tencentdb'
 })
 module.exports = conn
